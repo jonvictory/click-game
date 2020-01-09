@@ -17,7 +17,10 @@ code {
 }
 
 .no-marge {
-  margin: 0px;
+  margin: 0px !important;
+}
+.no-pad {
+  pad: 0px !important;
 }
 .title-center {
   padding-top: 50px;
@@ -38,7 +41,7 @@ code {
       rgba(67, 16, 150, 0.90)
     ),
     url("./images/bgtile.png");
-  box-shadow: 0px 5px 20px rgb(117, 117, 0);
+  
   /* max-height: 20vh; */
 }
 .header-divs {
@@ -61,7 +64,7 @@ code {
   margin: 0px !important;
   min-height: 20vh;
   position: relative;
-  z-index: -1;
+  box-shadow: 0px -5px 10px inset rgb(117, 117, 0), 0px 5px 10px inset rgb(117, 117, 0) ;
 }
 .card-table {
   font-family: "Cinzel Decorative", cursive;
@@ -73,6 +76,7 @@ code {
     ),
     url("./images/bgrug.jpg");
   color: white;
+  min-height: 90vh;
 }
 
 .card-img {
@@ -86,4 +90,17 @@ code {
   display: inline-block;
   max-height: 5in;
   max-width: 7in;
+}
+.button{
+  background: brown;
+  border: 5px double gold;
+  border-radius: 8px;
+  font-family: "Cinzel Decorative", cursive;
+  color: gold;
+  text-shadow: 2px 2px 4px gold;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  z-index: 20;
 }

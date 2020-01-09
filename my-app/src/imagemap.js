@@ -105,7 +105,7 @@ const imagemap = {
       card20: {
         image: "./images/a20.jpg",
         desc:
-          "Le Jusdgement",
+          "Le Jugement",
       },
       card21: {
         image: "./images/a21.jpg",

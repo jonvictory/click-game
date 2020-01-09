@@ -5,7 +5,7 @@ class Cardtable extends React.Component {
     render() {
       return (
         <div>
-       <button onClick={this.props.dealCards}>
+       <button className="button" onClick={this.props.dealCards}>
         Deal Cards
         </button>
   </div>
