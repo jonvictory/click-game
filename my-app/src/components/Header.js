@@ -3,9 +3,10 @@ import React from "react";
 const Header = props => (
   <header className="header-cont">
       <div>
-      <div className="header-divs"><p>test</p></div>
-      <div className="header-divs"> <h1 className="h1-size">This is the Intro</h1></div>
-      <div className="header-divs"><p>test</p></div>
+      <h1 className="no-marge title-center h1-size">Tarot</h1>
+    <h3 className="tagline no-marge h3-size">
+      A game of fate, hate, your own clean slate&mdash;or expiration date?
+    </h3>
       </div>
   </header>
 );
