@@ -15,9 +15,9 @@ class Touched extends React.Component {
         return (
             <div className="touch-wrap">
                 <h2>Touched</h2>
-                <ul>
+                {/* <ul>
                 {touchedIds.map(key => <li>{key}</li>)}
-                </ul>
+                </ul> */}
                 <div>
                     <h3>Total</h3>
                 <p>{total}</p>
