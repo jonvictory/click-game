@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/click-game/my-app/public/static/css/main.9a7e5073.chunk.css",
-    "main.js": "/click-game/my-app/public/static/js/main.5726f523.chunk.js",
-    "main.js.map": "/click-game/my-app/public/static/js/main.5726f523.chunk.js.map",
-    "runtime-main.js": "/click-game/my-app/public/static/js/runtime-main.a22f65fb.js",
-    "runtime-main.js.map": "/click-game/my-app/public/static/js/runtime-main.a22f65fb.js.map",
-    "static/js/2.413d8b3f.chunk.js": "/click-game/my-app/public/static/js/2.413d8b3f.chunk.js",
-    "static/js/2.413d8b3f.chunk.js.map": "/click-game/my-app/public/static/js/2.413d8b3f.chunk.js.map",
-    "index.html": "/click-game/my-app/public/index.html",
-    "precache-manifest.52fd2ff0d43859950fe75e2ee6e5616a.js": "/click-game/my-app/public/precache-manifest.52fd2ff0d43859950fe75e2ee6e5616a.js",
-    "service-worker.js": "/click-game/my-app/public/service-worker.js",
-    "static/css/main.9a7e5073.chunk.css.map": "/click-game/my-app/public/static/css/main.9a7e5073.chunk.css.map",
-    "static/js/2.413d8b3f.chunk.js.LICENSE": "/click-game/my-app/public/static/js/2.413d8b3f.chunk.js.LICENSE",
-    "static/media/index.css": "/click-game/my-app/public/static/media/bgtile.8eec607a.png"
+    "main.css": "/click-game/static/css/main.30febba0.chunk.css",
+    "main.js": "/click-game/static/js/main.dc2307bb.chunk.js",
+    "main.js.map": "/click-game/static/js/main.dc2307bb.chunk.js.map",
+    "runtime-main.js": "/click-game/static/js/runtime-main.d4a29ac7.js",
+    "runtime-main.js.map": "/click-game/static/js/runtime-main.d4a29ac7.js.map",
+    "static/js/2.413d8b3f.chunk.js": "/click-game/static/js/2.413d8b3f.chunk.js",
+    "static/js/2.413d8b3f.chunk.js.map": "/click-game/static/js/2.413d8b3f.chunk.js.map",
+    "index.html": "/click-game/index.html",
+    "precache-manifest.23d52f1516bb8cbd375c8eab144f1b98.js": "/click-game/precache-manifest.23d52f1516bb8cbd375c8eab144f1b98.js",
+    "service-worker.js": "/click-game/service-worker.js",
+    "static/css/main.30febba0.chunk.css.map": "/click-game/static/css/main.30febba0.chunk.css.map",
+    "static/js/2.413d8b3f.chunk.js.LICENSE": "/click-game/static/js/2.413d8b3f.chunk.js.LICENSE",
+    "static/media/index.css": "/click-game/static/media/bgtile.8eec607a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a22f65fb.js",
+    "static/js/runtime-main.d4a29ac7.js",
     "static/js/2.413d8b3f.chunk.js",
-    "static/css/main.9a7e5073.chunk.css",
-    "static/js/main.5726f523.chunk.js"
+    "static/css/main.30febba0.chunk.css",
+    "static/js/main.dc2307bb.chunk.js"
   ]
 }
