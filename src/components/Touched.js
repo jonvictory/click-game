@@ -6,7 +6,7 @@ class Touched extends React.Component {
         const total = touchedIds.reduce((prevTotal, key) => {
             const card = this.props.cards[key];
             const count = this.props.touched[key];
-            const hasBeenTouched = card && card.status === 'untouched';
+            const hasBeenTouched = card && card.status === false;
             if(hasBeenTouched) {
                 return prevTotal + (count)
             }

@@ -11,7 +11,12 @@ import Touched from "./components/Touched"
 class App extends React.Component {
   state = {
     cards: {},
-    touched: {}
+    touched: {},
+    status: this.props.status,
+    currentScore: 0,
+    topScore: 0,
+    winLose: "",
+    clicked: [],
   };
 
   dealCards = () => {
@@ -25,6 +30,13 @@ class App extends React.Component {
     touched[key] = touched[key] + 1 || 1
     // 3. Call setState to update our state object
     this.setState({ touched });
+  };
+
+  touchyTouchy = key => {
+    // 1. take a copy of state
+    const touchy = { ...this.state.status };
+    // 2. Either add to the order, or update the number in our order
+    touchy[key] = this.setState({ status: true });
   };
 
   // shuffleCards = (array) => {
@@ -64,7 +76,8 @@ class App extends React.Component {
                 key={key}
                 index={key} 
                 details={this.state.cards[key]} 
-                hasBeenTouched={this.hasBeenTouched} />
+                hasBeenTouched={this.hasBeenTouched}
+                touchyTouchy={this.touchyTouchy} />
               ))}
           </div>
         </div>
